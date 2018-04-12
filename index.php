@@ -19,11 +19,16 @@
 			</div>
 		</div>
 		<div class="d_t">   
-			<p> Date/Time: MM/DD/YYYY hh:mm
-				<?php 
-				echo date('l jS \of F Y h:i:s A');
-				?>
-			</p>
+			  <p>
+                  		  <?php
+
+                   		 $time = time();
+
+                   		 $main_time = date('F jS Y h:i a' );
+                    
+                   	 echo 'Date/Time: '.$main_time;
+                    ?>
+               </p>
 		</div>
 
 
